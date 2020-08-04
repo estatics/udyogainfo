@@ -1,0 +1,1 @@
+function G(n){return document.getElementById(n)}const nav1=G("nav1"),nav2=G("nav2"),overlay=G("overlay");function SHOW(n){n.style.display="block"}function HIDE(n){n.style.display="none"}function openNav(n){SHOW(n),SHOW(overlay)}function closeNav(){HIDE(overlay),HIDE(nav1),HIDE(nav2)}
